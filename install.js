@@ -69,7 +69,7 @@ module.exports = async (kernel) => {
           path: "app",                // Edit this to customize the path to start the shell from
           message: [
             "uv pip install -e .",
-            "uv pip install requirements.txt",
+            "uv pip install -r requirements.txt",
           ]
         }
       },
