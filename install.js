@@ -12,8 +12,7 @@ module.exports = async (kernel) => {
         method: "shell.run",
         params: {
           message: [
-            //"git clone -b torch-backbone https://github.com/cocktailpeanut/Zonos app",
-            "git clone https://github.com/cocktailpeanut/Zonos app",
+            "git clone https://github.com/petermg/Zonos-for-windows app",
             "pnpm install",
             "pnpm run clear"
           ]
